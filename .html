@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Local Weather App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Local Weather</h1>
+  <form>
+    <label for="location">location:</label><br>
+    <input type="text" id="location" name="location"><br>
+    <button type="button" onclick="getWeather()">Get Weather</button>
+  </form> 
+  <div id="weather-container">
+    <p id="temperature"></p>
+    <p id="forecast"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
